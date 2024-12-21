@@ -1,0 +1,58 @@
+/*============= start aside============= */
+* {
+  margin: 0;
+}
+aside .sections {
+  position: relative;
+  top: 2%;
+}
+aside .sections h1 {
+  /* width: fit-content; */
+  max-width: 100%;
+  margin: 20px 0;
+  font-size: 16px;
+}
+aside .sections {
+  width: 90%;
+  margin: auto;
+}
+aside .sections h1:hover {
+  cursor: pointer;
+}
+.sections svg {
+  width: 18px;
+  height: 18px;
+  margin-inline-end: 5px;
+}
+/* .sections div:nth-child(1) {
+  padding: 20px;
+} */
+.sections div {
+  background-color: #212529;
+  margin: 10px;
+  /* padding: 20px; */
+  height: 150px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+/* ==============start responsive =================== */
+@media (max-width: 1200px) {
+  aside .sections h1 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1000px) {
+  aside .sections h1 {
+    display: none;
+  }
+  aside .sections svg {
+    width: 32px;
+    height: 32px;
+  }
+}
+/* ==============End responsive =================== */
+/*============= End aside============= */

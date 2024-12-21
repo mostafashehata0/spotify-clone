@@ -1,0 +1,92 @@
+.navbar {
+  background-color: #1d1d1b;
+  color: white;
+}
+
+.navbar a img {
+  width: 100px;
+  height: 35px;
+}
+
+.buttons .btn {
+  padding: 14px 32px;
+  border-radius: 36px 38px;
+  -webkit-border-radius: 36px 38px;
+  -moz-border-radius: 36px 38px;
+  -ms-border-radius: 36px 38px;
+  -o-border-radius: 36px 38px;
+}
+@media (min-width: 990px) {
+  .buttons {
+    position: absolute;
+    right: 0;
+  }
+}
+@media (max-width: 990px) {
+  .buttons {
+    margin-top: 10px;
+  }
+  .buttons .btn {
+    padding: 7px 16px;
+    border-radius: 18px 18px;
+    -webkit-border-radius: 18px 18px;
+    -moz-border-radius: 18px 18px;
+    -ms-border-radius: 18px 18px;
+    -o-border-radius: 18px 18px;
+  }
+}
+/* =================start form============= */
+
+form input {
+  background-color: #212529;
+  border-color: transparent;
+}
+
+form .hose-icon {
+  padding: 7px 10px;
+  margin-inline-end: 5px;
+  background-color: #212529;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-align: center;
+}
+@media (max-width: 990px) {
+  form .hose-icon {
+    margin-top: 20px;
+    display: none;
+  }
+}
+/* make the responsive of search  */
+@media (min-width: 990px) {
+  form {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+  form input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 30px 30px;
+  }
+  form svg {
+    width: 30px;
+    height: 35px;
+  }
+}
+@media (max-width: 990px) {
+  form input {
+    width: 200px;
+    padding: 10px;
+    border-radius: 30px 30px;
+    margin-top: 10px;
+  }
+}
+
+/* =================End form============= */
